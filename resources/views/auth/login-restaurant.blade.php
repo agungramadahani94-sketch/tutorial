@@ -1,3 +1,8 @@
+
+@extends('layout.app')
+
+@section('title', 'Login — Rumah Makan')
+
 <!doctype html>
 <html>
 <head>
@@ -30,3 +35,6 @@
     <a href="{{ route('login.store') }}">Toko</a>
 </body>
 </html>
+
+@section('content')
+@endsection
